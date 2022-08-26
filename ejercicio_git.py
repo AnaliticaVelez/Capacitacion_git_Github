@@ -14,4 +14,5 @@ def rombo(n):
 numero=int(input("indica un numero: "))
 print(rombo(numero))
 
-print("Desarollado por Simon")
+print("Desarollado por Santiago")
+print('Participación equipo analítica')
