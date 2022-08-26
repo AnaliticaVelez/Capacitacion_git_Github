@@ -8,7 +8,7 @@ print('Somos el equipo de analítica mercadeo Cueros Vélez')
 
 def rombo(n):
 
-    result1=[" "*(n-i)+"$"*(i+i-1) for i in range(1,n+1)]
+    result1=[" "*(n-i)+"#"*(i+i-1) for i in range(1,n+1)]
     return "\n".join(result1+list(reversed(result1[:-1])))
  
 numero=int(input("indica un numero: "))
