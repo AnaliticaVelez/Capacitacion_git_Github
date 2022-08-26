@@ -3,7 +3,7 @@ from multiprocessing.spawn import import_main_path
 import pandas as pd
 import numpy as np
 
-print('Somos el equipo de analtica mercadeo Cueros Vélez')
+print('Somos el equipo de analítica mercadeo Cueros Vélez')
 
 
 def rombo(n):
@@ -12,6 +12,6 @@ def rombo(n):
     return "\n".join(result1+list(reversed(result1[:-1])))
  
 numero=int(input("indica un numero: "))
-print(rombo(numero))´
+print(rombo(numero))
 
 print("Desarollado por Simon")
