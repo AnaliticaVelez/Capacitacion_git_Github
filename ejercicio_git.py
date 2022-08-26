@@ -12,6 +12,6 @@ def rombo(n):
     return "\n".join(result1+list(reversed(result1[:-1])))
  
 numero=int(input("indica un numero: "))
-print(rombo(numero))´
+print(rombo(numero))
 
 print("Desarollado por Simon")
